@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Datos</string>
+    <string name="cNombre">nombre</string>
+    <string name="cFecha">fecha</string>
+    <string name="cTelefono">telefono</string>
+    <string name="cEmail">email</string>
+    <string name="cDescripcion">descripcion</string>
+    <string name="mNombre">nombre</string>
+    <string name="mFecha">fecha</string>
+    <string name="mTelefono">telefono</string>
+    <string name="mEmail">email</string>
+    <string name="mDescripcion">descripcion</string>
+    <string name="bSiguiente">siguiente</string>
+    <string name="beditar">Editar Datos</string>
+
+</resources>

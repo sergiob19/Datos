@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Datos">
+
+    <TextView
+        android:id="@+id/cTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/cTelefono"
+        app:layout_constraintStart_toStartOf="@+id/cFecha"
+        app:layout_constraintTop_toBottomOf="@+id/cFecha" />
+
+    <TextView
+        android:id="@+id/cNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:text="@string/cNombre"
+        app:layout_constraintEnd_toEndOf="@+id/cEmail"
+        app:layout_constraintStart_toStartOf="@+id/cEmail"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="@string/cFecha"
+        app:layout_constraintStart_toStartOf="@+id/cNombre"
+        app:layout_constraintTop_toBottomOf="@+id/cNombre" />
+
+    <TextView
+        android:id="@+id/cEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="@string/cEmail"
+        app:layout_constraintEnd_toEndOf="@+id/cDescripcion"
+        app:layout_constraintStart_toStartOf="@+id/cDescripcion"
+        app:layout_constraintTop_toBottomOf="@+id/cTelefono" />
+
+    <TextView
+        android:id="@+id/cDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="43dp"
+        android:text="@string/cDescripcion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cEmail" />
+
+    <Button
+        android:id="@+id/bEditar"
+        android:layout_width="202dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="83dp"
+        android:onClick="volver"
+        android:text="@string/beditar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cDescripcion" />
+</androidx.constraintlayout.widget.ConstraintLayout>
